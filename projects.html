@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyek - Muchamad Gavin Sava Willieansya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Kursor Cahaya Custom -->
+    <div class="cursor-glow" id="cursor-glow"></div>
+
+    <!-- Canvas Partikel Interaktif -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-code logo-icon"></i> Gavin<span>.dev</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Utama</a></li>
+                <li><a href="about.html">Tentang Saya</a></li>
+                <li><a href="projects.html" class="active">Proyek</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="projects-section">
+            <div class="section-header">
+                <span class="badge-status">
+                    <span class="pulse-dot"></span> PORTOFOLIO PROYEK
+                </span>
+                <h1 class="hero-title" style="font-size: 2.5rem;">
+                    Proyek & <span class="highlight-text">Eksplorasi Digital</span>
+                </h1>
+                <p class="hero-description" style="margin-bottom: 2rem;">
+                    Pilih proyek di bawah ini untuk melihat detail pengembangan dan teknologi yang digunakan.
+                </p>
+            </div>
+
+            <!-- Grid Wadah Kartu Proyek -->
+            <div class="projects-grid">
+                
+                <!-- KARTU PROYEK 1: Platform Donor -->
+                <div class="project-card">
+                    <div class="card-status-badge">
+                        <i class="fa-solid fa-circle-dot"></i> ONGOING
+                    </div>
+                    
+                    <h2 class="project-title">Platform Pendataan Donor & Pencari Donor</h2>
+                    
+                    <p class="project-excerpt">
+                        Sistem web interaktif berbasis lokasi untuk menjembatani pendonor dan pencari donor darah/organ secara real-time dan transparan.
+                    </p>
+
+                    <ul class="project-key-features">
+                        <li><i class="fa-solid fa-check"></i> Pemetaan lokasi real-time</li>
+                        <li><i class="fa-solid fa-check"></i> Notifikasi darurat pencarian donor</li>
+                        <li><i class="fa-solid fa-check"></i> Keamanan & enkripsi data medis</li>
+                    </ul>
+
+                    <div class="project-tags">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+
+                    <a href="#" class="btn btn-primary btn-card" onclick="alert('Platform dalam tahap pengembangan!')">
+                        <span>Lihat Detail</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- KARTU PROYEK 2: Placeholder Proyek Mendatang (Bisa ditambah lagi) -->
+                <div class="project-card placeholder-card">
+                    <div class="placeholder-icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <h3>Proyek Mendatang</h3>
+                    <p>Sedang dalam tahap perancangan dan riset ide baru.</p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Muchamad Gavin Sava Willieansya.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
